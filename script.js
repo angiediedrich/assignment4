@@ -44,6 +44,6 @@ document.getElementById('BtnGhandi').addEventListener('click', function(){
 
 document.getElementById('BtnDemosthenes').addEventListener('click', function(){
   //Code in here executes when the user clicks the "Demosthenes" button.
-  console.log("This speech was written by " + demosthenes.author + " in " + speech3.year + ". It is " 
-  + speech3.bce + " that this year is B.C.E.")
+  console.log("This speech was written by " + demosthenes.author + " in " + demosthenes.year + ". It is " 
+  + demosthenes.bce + " that this year is B.C.E.")
 });
