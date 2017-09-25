@@ -14,21 +14,26 @@ document.getElementById('BtnDemosthenes').addEventListener('click', function(){
   //Code in here executes when the user clicks the "Demosthenes" button.
 });
 
-var churchill ={
+var churchill = {
 	author: "Winston Churchill",
 	year: 1940,
-	bce: false;
-}
+	bce: false
+};
 
-var ghandi ={
+var ghandi = {
 	author: "Ghandi",
 	year: 1942,
-	bce: false;
-}
+	bce: false
+};
 
-var Demosthenes ={
+var demosthenes = {
 	author: "Demosthenes",
 	year: 342,
-	bce: true;
-}
+	bce: true
+};
 
+var speeches = [
+	churchill,
+	ghandi,
+	Demosthenes
+];
