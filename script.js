@@ -1,12 +1,13 @@
 
 document.getElementById('BtnDonate').addEventListener('click', function(){
   //Code in here executes when the user clicks the "Donate" button.
-  console.log("There are [x] speeches on the page.")
+  console.log("There are " + speeches.length + " speeches on the page.")
 });
 
 document.getElementById('BtnChurchill').addEventListener('click', function(){
   //Code in here executes when the user clicks the "Churchill" button.
-  console.log("This speech was written by [author name] in [year]. It is [is year B.C.E.] that this year is B.C.E.")
+  console.log("This speech was written by " + churchill.author + " in " + churchill.year + ". It is " 
+  + churchill.bce + " that this year is B.C.E.")
 });
 
 document.getElementById('BtnGhandi').addEventListener('click', function(){
@@ -45,4 +46,4 @@ var speeches = [
 
 var yearsApartCalc = ghandi.year - churchill.year;
 
-console.log("Ghandi's speech and Churchill's speech are " + yearsApartCalc + "years apart.");
+console.log("Ghandi's speech and Churchill's speech are " + yearsApartCalc + " years apart.");
