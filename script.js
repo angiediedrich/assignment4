@@ -37,3 +37,7 @@ var speeches = [
 	ghandi,
 	Demosthenes
 ];
+
+var yearsApartCalc = ghandi.year - churchill.year;
+
+console.log("Ghandi's speech and Churchill's speech are [yearsApartCalc] years apart.")
