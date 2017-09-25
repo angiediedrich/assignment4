@@ -13,3 +13,22 @@ document.getElementById('BtnGhandi').addEventListener('click', function(){
 document.getElementById('BtnDemosthenes').addEventListener('click', function(){
   //Code in here executes when the user clicks the "Demosthenes" button.
 });
+
+var churchill ={
+	author: "Winston Churchill",
+	year: 1940,
+	bce: false;
+}
+
+var ghandi ={
+	author: "Ghandi",
+	year: 1942,
+	bce: false;
+}
+
+var Demosthenes ={
+	author: "Demosthenes",
+	year: 342,
+	bce: true;
+}
+
